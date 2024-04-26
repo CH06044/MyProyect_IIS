@@ -5,4 +5,4 @@ factorial n = n * factorial (n - 1)
 main :: IO ()
 main = do
     let num = 5
-    putStrLn ("El factorial de " ++ show num ++ " es " ++ show (factorial num))
+    putStrLn ("Hola Bienvenido a Haskell El factorial de " ++ show num ++ " es " ++ show (factorial num))
